@@ -1,0 +1,43 @@
+#bootstrapTable {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+}
+
+#bootstrapTable thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+#bootstrapTable tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#bootstrapTable tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+#bootstrapTable td, #bootstrapTable th {
+    padding: 12px;
+    text-align: left;
+}
+
+form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form .form-control {
+    margin-bottom: 15px;
+}
+
+form .btn-primary {
+    margin-top: 10px;
+}
